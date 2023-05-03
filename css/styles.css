@@ -1,0 +1,260 @@
+:root {
+    --body-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #434455;
+    background-color: var(--body-color)
+}
+
+:root {
+    --logotype-color: #4D5AE5;
+}
+
+.link:hover,
+.link:focus {
+    color: #404bbf;
+}
+
+.link,
+.logo {
+    text-decoration: none;
+}
+
+:root {
+    --logo-color: #2E2F42;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color)
+}
+
+.logotype {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logotype-color)
+}
+
+.list {
+    list-style: none;
+}
+
+.menu-link {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.mailto,
+.contact-phone-number {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+main {}
+
+.main-hero {
+    background: #2E2F42;
+}
+
+.main-text {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF;
+}
+
+.main-button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    width: 169px;
+    height: 56px;
+    cursor: pointer;
+    background: #4D5AE5;
+    color: #FFFFFF;
+}
+
+p {
+    color: #434455;
+}
+
+.principles {
+    display: none;
+}
+
+.feature {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.directions {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-members {
+    background-color: #FFFFFF;
+}
+
+.member {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.direction {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.page-footer {
+    background: #2E2F42;
+}
+
+.second-part-logo {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #F4F4FD;
+}
+
+.second-page-button {
+    line-height: 24px;
+    border: 1px solid #E7E9FC;
+    background: #F4F4FD;
+    color: var(--second-page-button-color);
+}
+
+.portfolio-button-text {
+    font-size: 16px;
+    color: #4D5AE5;
+}
+
+.portfolio-button-text:hover,
+.portfolio-button-text:focus {
+    color: #FFFFFF;
+}
+
+.second-page-button:hover,
+.second-page-button:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+}
+
+:root {
+    --second-page-button-color: #4d5ae5;
+    --second-page-button-background-color: #F4F4FD;
+}
+
+.second-page-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--second-page-button-color);
+    background-color: var(--second-page-button-background-color);
+}
+
+:root {
+    --type-of-app-color: #2E2F42;
+}
+
+.type-of-app {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--type-of-app-color)
+}
+
+:root {
+    --app-color: #434455;
+}
+
+.app {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--app-color)
+}
