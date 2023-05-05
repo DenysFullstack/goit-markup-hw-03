@@ -1,5 +1,54 @@
 :root {
     --body-color: #FFFFFF;
+    --logotype-color: #4D5AE5;
+    --logo-color: #2E2F42;
+    --second-page-button-color: #4d5ae5;
+    --second-page-button-background-color: #F4F4FD;
+    --type-of-app-color: #2E2F42;
+    --app-color: #434455;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.link:hover,
+.link:focus {
+    color: #404bbf;
+}
+
+.list {
+    list-style: none;
+}
+
+.link,
+.logo {
+    text-decoration: none;
+}
+
+.list {
+    display: flex;
+    align-items: center;
 }
 
 body {
@@ -10,22 +59,30 @@ body {
     background-color: var(--body-color)
 }
 
-:root {
-    --logotype-color: #4D5AE5;
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.link:hover,
-.link:focus {
-    color: #404bbf;
+/* Header */
+
+.page-header {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.page-nav {
+    display: flex;
+    align-items: center;
+    column-gap: 76px;
 }
 
-.link,
-.logo {
-    text-decoration: none;
-}
-
-:root {
-    --logo-color: #2E2F42;
+.menu {
+    column-gap: 40px;
 }
 
 .logo {
@@ -48,10 +105,6 @@ body {
     color: var(--logotype-color)
 }
 
-.list {
-    list-style: none;
-}
-
 .menu-link {
     font-family: 'Roboto';
     font-size: 16px;
@@ -65,8 +118,10 @@ body {
     color: #404bbf;
 }
 
-.contacts {
+.contacts-link {
     font-style: normal;
+    display: flex;
+    column-gap: 40px;
 }
 
 .mailto,
@@ -80,7 +135,7 @@ body {
     color: #434455;
 }
 
-main {}
+/* Main */
 
 .main-hero {
     background: #2E2F42;
@@ -92,6 +147,7 @@ main {}
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    padding-top: 188px;
     color: #FFFFFF;
 }
 
@@ -109,6 +165,7 @@ main {}
     width: 169px;
     height: 56px;
     cursor: pointer;
+    margin: 48px auto 188px auto;
     background: #4D5AE5;
     color: #FFFFFF;
 }
@@ -219,11 +276,6 @@ p {
     color: #FFFFFF;
 }
 
-:root {
-    --second-page-button-color: #4d5ae5;
-    --second-page-button-background-color: #F4F4FD;
-}
-
 .second-page-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -235,20 +287,12 @@ p {
     background-color: var(--second-page-button-background-color);
 }
 
-:root {
-    --type-of-app-color: #2E2F42;
-}
-
 .type-of-app {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--type-of-app-color)
-}
-
-:root {
-    --app-color: #434455;
 }
 
 .app {
