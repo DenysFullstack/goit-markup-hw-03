@@ -10,6 +10,7 @@
 
 button {
     cursor: pointer;
+    display: block;
 }
 
 h1,
@@ -75,6 +76,7 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
 .page-nav {
     display: flex;
     align-items: center;
@@ -141,13 +143,19 @@ body {
     background: #2E2F42;
 }
 
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
 .main-text {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    padding-top: 188px;
     color: #FFFFFF;
 }
 
@@ -165,7 +173,7 @@ body {
     width: 169px;
     height: 56px;
     cursor: pointer;
-    margin: 48px auto 188px auto;
+    margin: 48px auto 0 auto;
     background: #4D5AE5;
     color: #FFFFFF;
 }
@@ -178,12 +186,23 @@ p {
     display: none;
 }
 
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .feature {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+}
+
+.strengths {
+    display: flex;
+    column-gap: 24px;
+
 }
 
 .text {
@@ -201,10 +220,17 @@ p {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
     color: #2E2F42;
 }
 
+.job-profile {
+    padding-bottom: 120px;
+}
+
 .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
     background-color: #F4F4FD;
 }
 
@@ -215,6 +241,7 @@ p {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 120px;
     color: #2E2F42;
 }
 
