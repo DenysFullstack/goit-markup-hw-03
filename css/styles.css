@@ -223,7 +223,7 @@ p {
 
 .strengths {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     align-items: start;
 }
 
@@ -252,7 +252,7 @@ p {
 
 .examples {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .team {
@@ -263,7 +263,7 @@ p {
 
 .team-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     text-align: center;
 }
 
@@ -274,7 +274,7 @@ p {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 120px;
+    margin-bottom: 72px;
     color: #2E2F42;
 }
 
