@@ -64,17 +64,21 @@ body {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
-    justify-content: space-between;
 }
 
 /* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
 
 .page-header {
     display: flex;
     align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .page-nav {
@@ -104,6 +108,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
     color: var(--logotype-color)
 }
 
@@ -202,7 +207,6 @@ p {
 .strengths {
     display: flex;
     column-gap: 24px;
-
 }
 
 .text {
@@ -226,6 +230,11 @@ p {
 
 .job-profile {
     padding-bottom: 120px;
+}
+
+.examples {
+    display: flex;
+    column-gap: 24px;
 }
 
 .team {
