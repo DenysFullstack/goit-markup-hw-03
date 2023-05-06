@@ -294,6 +294,7 @@ p {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     color: #2E2F42;
 }
 
@@ -332,8 +333,27 @@ p {
 
 /* Second page */
 
+/* Для секції в класі заданий стиль padding: 96px 0 120px для визначення відступів всередині секції */
+
+.types {
+    padding: 96px 0 120px;
+}
+
+.secondary-page-menu {
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.second-page-button:hover,
+.second-page-button:focus {
+    border: 1px solid transparent;
+}
+
 .second-page-button {
     line-height: 24px;
+    padding: 12px 24px;
+    border-radius: 4px;
     border: 1px solid #E7E9FC;
     background: #F4F4FD;
     color: var(--second-page-button-color);
@@ -366,11 +386,26 @@ p {
     background-color: var(--second-page-button-background-color);
 }
 
+.applications {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.application {}
+
+.name-category-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .type-of-app {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     color: var(--type-of-app-color)
 }
 
